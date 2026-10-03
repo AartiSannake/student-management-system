@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f4f6fa; color: #222; }
+.app header { display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  background: #1f2a44; color: #fff; padding: 12px 24px; flex-wrap: wrap; }
+header h2 { margin: 0; font-size: 18px; }
+nav { display: flex; gap: 8px; }
+nav button.active { background: #4f7cff; }
+main { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+button { background: #3b5bdb; color: #fff; border: 0; padding: 7px 14px; border-radius: 6px; cursor: pointer; margin-left: 4px; }
+button.danger { background: #d9480f; }
+input, select { padding: 7px 10px; border: 1px solid #ccd; border-radius: 6px; }
+.row { display: flex; gap: 8px; margin: 12px 0; flex-wrap: wrap; align-items: center; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; margin-top: 12px; }
+th, td { padding: 10px 12px; border-bottom: 1px solid #eee; text-align: left; }
+th { background: #eef1f8; }
+.error { color: #c92a2a; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.login { min-height: 100vh; display: grid; place-items: center; }
+.login form { background: #fff; padding: 32px; border-radius: 12px; display: grid; gap: 12px; width: 320px; box-shadow: 0 6px 24px #0002; }
+.login h2 { margin: 0 0 8px; text-align: center; }
+@media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }

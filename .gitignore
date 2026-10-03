@@ -1,0 +1,26 @@
+# IntelliJ IDEA
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+
+# Java / Spring Boot
+target/
+**/target/
+*.class
+**/*.class
+
+# Node / React
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Environment / secrets
+.env
+.env.*
+**/application.properties
+
+# OS files
+.DS_Store
+Thumbs.db
